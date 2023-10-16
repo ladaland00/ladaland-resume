@@ -1,0 +1,14 @@
+.contact {
+  height: 100%;
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  .textContainer {
+    flex: 1;
+  }
+  .formContainer {
+    flex: 1;
+  }
+}

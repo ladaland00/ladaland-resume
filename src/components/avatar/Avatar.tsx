@@ -47,7 +47,10 @@ const Avatar = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>LADA NAMUANGRAK</motion.h2>
-          <motion.h1 variants={textVariants}>Web developer</motion.h1>
+          <motion.h1 variants={textVariants}>
+            Web developer <br />
+            and Trainee artist.
+          </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
@@ -80,7 +83,7 @@ const Avatar = () => {
         Frontend Developer
       </motion.div>
       <div className="imageContainer">
-        <img src="avatar.png" alt="avatar" />
+        <img src="lada.png" alt="avatar" width={600} />
       </div>
     </div>
   );

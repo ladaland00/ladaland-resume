@@ -26,6 +26,7 @@ const ToggleButton = ({ setOpen }: Props) => {
           variants={{
             closed: {
               opacity: 1,
+              d: "M 2 10.5 L 20 10.5",
             },
             open: {
               opacity: 0,
@@ -38,7 +39,7 @@ const ToggleButton = ({ setOpen }: Props) => {
           strokeLinecap="round"
           variants={{
             closed: {
-              d: "M 2 16.346 L 20 16.346",
+              d: "M 2 18.346 L 20 18.346",
             },
             open: {
               d: "M 3 2.5 L 17 16.346",

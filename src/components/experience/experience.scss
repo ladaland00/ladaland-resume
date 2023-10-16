@@ -1,0 +1,22 @@
+.experience {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .textContainer {
+    color: #414040;
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    hr {
+      width: 500px;
+      border: none;
+      border-top: 2px solid #f0e117;
+    }
+  }
+  .educationContainer {
+  }
+}

@@ -1,5 +1,7 @@
 import "./App.scss";
 import Avatar from "./components/avatar/Avatar";
+import Contact from "./components/contact/Contact";
+import Experience from "./components/experience/Experience";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 
@@ -10,17 +12,20 @@ function App() {
         <Navbar />
         <Avatar />
       </section>
-
-      <section id="Services">
-        <Parallax type="services" />
+      <section id="Experience">
+        <Parallax type="experience" />
       </section>
-      <section>Services</section>
+      <section>
+        <Experience />
+      </section>
+      <section id="Skills">Skills</section>
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
       <section>Portfolio</section>
-      <section>D</section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
     </div>
   );
 }

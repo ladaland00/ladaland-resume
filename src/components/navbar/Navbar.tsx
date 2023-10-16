@@ -14,8 +14,15 @@ const Navbar = () => {
           Lada N.
         </motion.span>
         <div className="social">
-          <a href="">linklind</a>
-          <a href="">Github</a>
+          <a href="https://github.com/ladaland00" target="_blank">
+            <img src="/github.png" alt="" width="150" height="150" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lada-n-77ab9196/"
+            target="_blank"
+          >
+            <img src="/linkedin.png" alt="" width="150" height="150" />
+          </a>
         </div>
       </div>
     </div>
