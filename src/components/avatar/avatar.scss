@@ -1,0 +1,56 @@
+.avatar {
+  height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #290628, #3f043d);
+  overflow: hidden;
+  position: relative;
+  .wrapper {
+    max-width: 1024px;
+    height: 100%;
+    margin: auto;
+    .textContainer {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      h2 {
+        font-size: 30px;
+        letter-spacing: 10px;
+        color: #6200b3;
+      }
+      h1 {
+        font-size: 80px;
+      }
+      .buttons {
+        button {
+          padding: 15px;
+          border: 1px solid white;
+          border-radius: 20px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 400;
+        }
+      }
+      img {
+        width: 150px;
+      }
+    }
+  }
+  .imageContainer {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .slidingTextContainer {
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    color: #5f525250;
+    width: 50%;
+    font-weight: bold;
+  }
+}
