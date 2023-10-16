@@ -1,5 +1,6 @@
 import { motion, Variants } from "framer-motion";
 import "./contact.scss";
+import { SyntheticEvent } from "react";
 
 const Contact = () => {
   const variants: Variants = {
@@ -15,6 +16,9 @@ const Contact = () => {
         staggerChildren: 0.5,
       },
     },
+  };
+  const onSendEmail = (e: SyntheticEvent) => {
+    e.preventDefault();
   };
   return (
     <motion.div
@@ -35,10 +39,10 @@ const Contact = () => {
         </motion.div>
       </motion.div>
       <motion.div className="formContainer">
-        <form>
-          <input name="name" />
-          <input name="email" />
-          <textarea name="detail" />
+        <form onSubmit={onSendEmail}>
+          <input name="name" placeholder="Name..." type="text" />
+          <input name="email" placeholder="Email..." type="email" />
+          <textarea name="detail" placeholder="Detail..." />
           <button>Send</button>
         </form>
       </motion.div>

@@ -4,7 +4,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+
+  .rotateFlower {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    z-index: -1;
+  }
   .textContainer {
+    margin-top: 20px;
     color: #414040;
     flex: 1;
     align-self: flex-end;
@@ -12,11 +22,40 @@
     align-items: center;
     gap: 20px;
     hr {
-      width: 500px;
+      width: 150px;
       border: none;
       border-top: 2px solid #f0e117;
     }
   }
-  .educationContainer {
+  h1 {
+    max-width: 1024px;
+    color: #414040;
+    display: flex;
+    margin: auto;
+    font-size: 45px;
+    padding-bottom: 20px;
+  }
+  .educationContainer,
+  .experienceContainer {
+    flex: 2;
+    display: flex;
+    margin: auto;
+    max-width: 1024px;
+    margin-bottom: 20px;
+    .box {
+      h2 {
+        color: #414040;
+      }
+      p {
+        color: #414040;
+      }
+      padding: 50px;
+      gap: 5px;
+      background: #fbf8ccda;
+      border: 4px solid #ffcfd2;
+      display: flex;
+      flex-direction: column;
+      backdrop-filter: blur(4px);
+    }
   }
 }
