@@ -12,12 +12,8 @@ export default defineConfig(({ mode, command }) => {
       "process.env.TEMPLATE_ID": JSON.stringify(env.TEMPLATE_ID),
     },
     plugins: [react()],
-    base: "/",
+    base: "/animation-resume/",
   };
-
-  if (command !== "serve") {
-    config.base = "/animation-resume/";
-  }
 
   return config;
 });
