@@ -47,7 +47,7 @@ const items = [
     role: "Bachelors Degree in Computer Engineering",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, repellendus. Autem quaerat natus minus veritatis illum dolore labore neque ex? Quaerat enim odio iste nihil adipisci ipsam velit rem? Accusantium.",
     range: "Aug 2021 - July 2021",
-    skills: ["HTML", "CSS", "JavaScript", "Redux", "MongoDB", "GraphQL"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "MongoDB", "GraphQL"],
   },
 ];
 const Single = ({ item }: { item: List }) => (
