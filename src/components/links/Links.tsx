@@ -5,7 +5,8 @@ const Links = () => {
   const variants = {
     open: {
       transition: {
-        staggeredChildren: 0.1,
+        staggerChildren: 0.07,
+        delayChildren: 0.2,
       },
     },
     closed: {

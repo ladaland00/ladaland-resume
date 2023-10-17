@@ -60,10 +60,10 @@ const Expertise = () => {
           </p>
         </motion.div>
         <motion.div className="box" whileHover={{ scale: 1.2, rotate: 5 }}>
-          <h2>Android, iOS</h2>
+          <h2>CapacitorJS  Android, iOS</h2>
           <p>
             Skilled in developing hybrid mobile apps and cross-platform
-            solutions using the CapacitorJS framework.
+            solutions using the CapacitorJS .
           </p>
         </motion.div>
       </motion.div>

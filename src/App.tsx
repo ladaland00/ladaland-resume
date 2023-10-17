@@ -20,15 +20,11 @@ function App() {
       <section>
         <Expertise />
       </section>
-      <section id="Experience">
-        <Experience />
-      </section>
+      <Experience />
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <section>
-        <Portfolio />
-      </section>
+      <Portfolio />
       <section id="Contact">
         <Contact />
       </section>

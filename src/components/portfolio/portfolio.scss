@@ -1,17 +1,47 @@
 .portfolio {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   position: relative;
   .progress {
+    background: #A3C4F3;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: #fbf8cc;
+    font-size: 36px;
+
     h1 {
-      max-width: 1024px;
-      color: #414040;
-      display: flex;
       margin: auto;
+      text-align: center;
       font-size: 45px;
       padding-bottom: 20px;
+      width: 100%;
+    }
+    .progressBar {
+      background-color: white;
+      height: 10px;
+    }
+  }
+  .comingSoonBox {
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+  .box {
+    display: flex;
+    max-width: 1024px;
+    padding-top: 30vh;
+    margin: auto;
+    padding-left: 10px;
+    .projectDetail {
+      padding-left: 20px;
+      .projectName{
+        font-size: 30px;
+      }
     }
   }
 }

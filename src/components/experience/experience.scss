@@ -5,6 +5,10 @@
   justify-content: space-between;
   position: relative;
   .titleContainer {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
     flex: 1;
     display: flex;
     margin: auto;
@@ -14,9 +18,53 @@
       max-width: 1024px;
       color: #414040;
       display: flex;
+      text-align: center;
       margin: auto;
       font-size: 45px;
       padding-bottom: 20px;
+    }
+  }
+  .box {
+    display: flex;
+    max-width: 1024px;
+    margin: auto;
+    .range {
+      border-right: 2px solid wheat;
+      width: 380px;
+      .titleRange {
+        margin-top: 30vh;
+        text-align: end;
+        color: #414040;
+        padding-right: 10px;
+        font-weight: bold;
+      }
+    }
+    .detail {
+      margin-top: 30vh;
+      padding-left: 30px;
+      .companyTitle {
+        font-size: 30px;
+        font-weight: 600;
+        color: #414040;
+      }
+      .role {
+        font-size: 25px;
+      }
+      .description {
+        color: #414040;
+        padding-block: 10px;
+      }
+      .skills {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        .skill {
+          padding: 5px 15px;
+          background: #cfbaf0;
+          color: #414040;
+          border-radius: 25px;
+        }
+      }
     }
   }
 }

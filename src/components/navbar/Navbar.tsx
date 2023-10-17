@@ -11,7 +11,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
         >
-          Lada N.
+          Lada Dev
         </motion.span>
         <div className="social">
           <a href="https://github.com/ladaland00" target="_blank">
