@@ -1,15 +1,10 @@
-.experience {
+.portfolio {
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  .titleContainer {
-    flex: 1;
-    display: flex;
-    margin: auto;
-    max-width: 1024px;
-    margin-bottom: 20px;
+  .progress {
     h1 {
       max-width: 1024px;
       color: #414040;

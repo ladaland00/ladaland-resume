@@ -5,12 +5,15 @@
   display: flex;
   align-items: center;
   gap: 50px;
-
+  @media only screen and (max-width: 1024px) {
+    flex-direction: column;
+  }
   .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
     h1 {
       font-size: 90px;
       line-height: 1.2;
@@ -30,9 +33,11 @@
   }
   .formContainer {
     flex: 1;
+    justify-content: center;
     form {
       display: flex;
       flex-direction: column;
+
       gap: 20px;
       input,
       textarea {
@@ -44,7 +49,7 @@
         border-radius: 5px;
         &:focus,
         &:active {
-          outline: none;
+          outline: 1px solid #ffcfd2;
           border: 1px solid white;
         }
       }
