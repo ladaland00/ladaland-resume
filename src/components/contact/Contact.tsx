@@ -26,13 +26,18 @@ const Contact = () => {
   };
   const onSendEmail = (e: SyntheticEvent) => {
     e.preventDefault();
+    console.log(
+      process.env.EMAIL_PUBLIC_KEY,
+      process.env.TEMPLATE_ID,
+      process.env.EMAIL_PUBLIC_KEY
+    );
     if (formRef?.current)
       emailjs
         .sendForm(
-          "service_o0o2get",
-          "template_p5474dn",
+          process.env.SERVICE_ID || "",
+          process.env.TEMPLATE_ID || "",
           formRef?.current,
-          "PR80Qd0SlvpotQRxm"
+          process.env.EMAIL_PUBLIC_KEY
         )
         .then(
           (result) => {
