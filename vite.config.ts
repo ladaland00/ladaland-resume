@@ -11,7 +11,7 @@ export default defineConfig(({ mode, command }) => {
       "process.env.SERVICE_ID": JSON.stringify(env.SERVICE_ID),
       "process.env.TEMPLATE_ID": JSON.stringify(env.TEMPLATE_ID),
     },
-    base: "https://ladaland00.github.io/animation-resume/",
+    base: "/animation-resume/",
     plugins: [react()],
   };
 
