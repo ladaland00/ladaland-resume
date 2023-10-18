@@ -59,7 +59,7 @@ const Avatar = () => {
           </motion.div>
           <motion.img
             animate="scrollButton"
-            src="/scroll.png"
+            src="scroll.png"
             alt=""
             variants={textVariants}
           />
@@ -72,7 +72,7 @@ const Avatar = () => {
           <button>See the Latest Works</button>
           <button>Contact Me</button>
         </div>
-        <img src="/scroll.png" alt="" />
+        <img src="scroll.png" alt="" />
       </div>
       <motion.div
         className="slidingTextContainer"
