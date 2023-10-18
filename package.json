@@ -2,7 +2,6 @@
   "name": "animation-resume",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ladaland00.github.io/animation-resume/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
