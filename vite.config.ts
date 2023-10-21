@@ -12,7 +12,7 @@ export default defineConfig(({ mode, command }) => {
       "process.env.SERVICE_ID": JSON.stringify(env.SERVICE_ID),
       "process.env.TEMPLATE_ID": JSON.stringify(env.TEMPLATE_ID),
     },
-    base: "/ladaland-resume/",
+    base: "/ladaland/",
     plugins: [react()],
     resolve: {
       alias: [{ find: "@", replacement: resolve(__dirname, "./src") }],
