@@ -7,7 +7,7 @@ const Expertise = () => {
   const isInView = useInView(ref, { margin: "-100px" });
   const variants: Variants = {
     initial: {
-      x: -500,
+      x: -200,
       y: 100,
       opacity: 0,
     },
@@ -16,6 +16,7 @@ const Expertise = () => {
       y: 0,
       opacity: 1,
       transition: {
+        delay: 0.8,
         duration: 1,
         staggerChildren: 0.5,
       },
@@ -48,7 +49,7 @@ const Expertise = () => {
         <motion.div className="box" whileHover={{ scale: 1.2, rotate: -5 }}>
           <h2>Software Development</h2>
           <p>
-            Experienced in both functional and OOP : NodeJS, NestJS, JavaScript,
+            Experienced in both functional : NodeJS, NestJS, JavaScript,
             TypeScript.
           </p>
         </motion.div>
@@ -60,7 +61,7 @@ const Expertise = () => {
           </p>
         </motion.div>
         <motion.div className="box" whileHover={{ scale: 1.2, rotate: 5 }}>
-          <h2>CapacitorJS  Android, iOS</h2>
+          <h2>CapacitorJS Android, iOS</h2>
           <p>
             Skilled in developing hybrid mobile apps and cross-platform
             solutions using the CapacitorJS .

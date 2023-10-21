@@ -49,7 +49,7 @@ const Avatar = () => {
           <motion.h2 variants={textVariants}>LADA NAMUANGRAK</motion.h2>
           <motion.h1 variants={textVariants}>
             Web developer <br />
-            and Trainee artist.
+            and artist.
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>

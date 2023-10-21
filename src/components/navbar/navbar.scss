@@ -5,11 +5,15 @@
     max-width: 1024px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;      
+    @media only screen and (max-width: 1024px) {
+        padding-left: 100px;
+      }
     span {
       font-weight: bold;
       color: black;
       font-size: 24px;
+
     }
     .social {
       display: flex;

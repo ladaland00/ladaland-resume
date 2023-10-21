@@ -16,20 +16,6 @@ const items = [
     gitHubLink: "",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores voluptate voluptatum quisquam natus. Quas quibusdam nihil reprehenderit dolor, cupiditate blanditiis praesentium officiis explicabo alias accusamus ex. Quidem, sunt nulla.",
   },
-  {
-    title: "B",
-    image: "project-temp.jpg",
-    urlLink: "",
-    gitHubLink: "",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores voluptate voluptatum quisquam natus. Quas quibusdam nihil reprehenderit dolor, cupiditate blanditiis praesentium officiis explicabo alias accusamus ex. Quidem, sunt nulla.",
-  },
-  {
-    title: "C",
-    image: "project-temp.jpg",
-    urlLink: "",
-    gitHubLink: "",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores voluptate voluptatum quisquam natus. Quas quibusdam nihil reprehenderit dolor, cupiditate blanditiis praesentium officiis explicabo alias accusamus ex. Quidem, sunt nulla.",
-  },
 ];
 const Single = ({ item }: { item: ItemProps }) => (
   <section className="box">
