@@ -17,6 +17,12 @@ export default defineConfig(({ mode, command }) => {
     resolve: {
       alias: [{ find: "@", replacement: resolve(__dirname, "./src") }],
     },
+    test: {
+      globals: true,
+      environment: "jsdom",
+      setupFiles: ["./src/test/setup.ts"],
+      testMatch: ["./tests/**/*.test.tsx"],
+    },
   };
 
   return config;

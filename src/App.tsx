@@ -21,13 +21,13 @@ function App() {
         <Expertise />
       </section>
       <Experience />
-       <section id="Portfolio">
+      <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
       <Portfolio />
       <section id="Contact">
         <Contact />
-      </section> 
+      </section>
     </div>
   );
 }
